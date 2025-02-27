@@ -210,7 +210,7 @@ body {
  * Base styles for Yotpo reviews.
  *
  */
-html {
+html [class*="yotpo-display-"][class*="yotpo-device-"][style] {
   font-size: 62.5%;
 }
 
