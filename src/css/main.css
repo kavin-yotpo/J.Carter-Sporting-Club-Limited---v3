@@ -801,3 +801,20 @@ button#yotpo-main-widget-btn {
   .yotpo-reviews-pagination-container {
   margin-block: 20px !important;
 }
+
+[class*="yotpo-display-"][class*="yotpo-device-"][style][class*="mobile"]
+  .yotpo-star-rating-icons-wrapper
+  > span:last-child {
+  width: 100%;
+  display: block;
+}
+
+[class*="yotpo-display-"][class*="yotpo-device-"][style][class*="mobile"]
+  .yotpo-star-rating-icons-wrapper {
+  flex-wrap: wrap;
+}
+
+[class*="yotpo-display-"][class*="yotpo-device-"][style][class*="mobile"]
+  .yotpo-modal-body {
+  padding: 0;
+}
