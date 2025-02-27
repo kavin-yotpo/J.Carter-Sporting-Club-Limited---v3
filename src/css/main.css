@@ -466,6 +466,7 @@ button#yotpo-main-widget-btn {
   background: var(--background-overlay-light) !important;
   width: auto !important;
   height: auto !important;
+  font-weight: normal !important;
 }
 
 .yotpo-review-border-smooth {
@@ -761,4 +762,38 @@ button#yotpo-main-widget-btn {
   .yotpo-new-review-submit {
   font-size: 16px;
   background-color: #2c2c2c;
+}
+/**********/
+/* mobile */
+/**********/
+[class*="yotpo-display-"][class*="yotpo-device-"][style][class*="mobile"]
+  .yotpo-headline {
+  font-size: 32px;
+}
+[class*="yotpo-display-"][class*="yotpo-device-"][style][class*="mobile"]
+  .yotpo-bottom-line-left-panel {
+  font-size: 25px;
+}
+[class*="yotpo-display-"][class*="yotpo-device-"][style][class*="mobile"]
+  .yotpo-bottom-line-right-panel,
+[class*="yotpo-display-"][class*="yotpo-device-"][style][class*="mobile"]
+  .yotpo-bottom-line-summary {
+  gap: 12px !important;
+}
+[class*="yotpo-display-"][class*="yotpo-device-"][style][class*="mobile"]
+  .yotpo-reviewer-name
+  + div {
+  justify-content: flex-start !important;
+}
+[class*="yotpo-display-"][class*="yotpo-device-"][style][class*="mobile"]
+  .yotpo-review-center-panel {
+  margin-top: 12px !important;
+}
+[class*="yotpo-display-"][class*="yotpo-device-"][style][class*="mobile"]
+  .yotpo-review-rating-title {
+  row-gap: 12px !important;
+}
+#yotpo-reviews-main-widget[class*="yotpo-display-"][class*="yotpo-device-"][style][class*="mobile"]
+  .yotpo-review-title {
+  font-size: 16px;
 }
